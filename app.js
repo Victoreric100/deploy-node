@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
     id: "200",
     name: "deploy-demo app",
     isWorking: true,
-    platform: "evennode.com",
+    platform: "digitalocean deployment",
   };
   res.send(jsondata);
 });
